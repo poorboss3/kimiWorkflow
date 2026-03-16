@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  mode: debug
+  read_timeout: 30s
+  write_timeout: 30s
+
+# 内存存储配置（无需外部依赖）
+storage:
+  type: memory  # 支持 memory
+
+# 扩展点配置
+extension:
+  default_timeout: 3s
+  max_retry: 3
+  retry_interval: 1s
+
+# 锁配置
+lock:
+  default_ttl: 30s
+
+log:
+  level: info
+  format: text
+  output: stdout
