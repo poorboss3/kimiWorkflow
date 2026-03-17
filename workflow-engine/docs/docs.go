@@ -13,7 +13,7 @@ const docTemplate = `{
         "version": "{{.Version}}"
     },
     "host": "{{.Host}}",
-    "basePath": "{{.BasePath}}",
+    "basePath": "/",
     "paths": {
         "/api/v1/processes/definitions": {
             "get": {
@@ -840,7 +840,7 @@ const docTemplate = `{
 var SwaggerInfo = &swag.Spec{
 	Version:          "1.0",
 	Host:             "localhost:8080",
-	BasePath:         "/api/v1",
+	BasePath:         "/",
 	Schemes:          []string{},
 	Title:            "工作流引擎 API",
 	Description:      "基于内存存储的工作流引擎 API 文档",

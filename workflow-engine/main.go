@@ -22,7 +22,7 @@ import (
 // @version 1.0
 // @description 基于内存存储的工作流引擎 API 文档
 // @host localhost:8080
-// @BasePath /api/v1
+// @BasePath /
 func main() {
 	// 创建内存存储组件
 	mq := memory.NewQueue()

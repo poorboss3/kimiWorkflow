@@ -4,5 +4,5 @@ info:
   description: 基于内存存储的工作流引擎 API 文档
   version: "1.0"
 host: localhost:8080
-basePath: /api/v1
+basePath: /
 paths: {}
