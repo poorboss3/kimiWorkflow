@@ -1,0 +1,74 @@
+# ==================== Go Backend ====================
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Build output
+/workflow-engine/workflow-engine
+/workflow-engine/workflow-engine.exe
+/workflow-engine/*.exe
+/workflow-engine/dist/
+
+# ==================== Frontend (workflow-engine-ui) ====================
+# Dependencies
+/workflow-engine-ui/node_modules/
+/workflow-engine-ui/.pnp
+/workflow-engine-ui/.pnp.js
+
+# Build output
+/workflow-engine-ui/dist/
+/workflow-engine-ui/dist-ssr/
+/workflow-engine-ui/build/
+
+# Local env files
+/workflow-engine-ui/.env
+/workflow-engine-ui/.env.local
+/workflow-engine-ui/.env.*.local
+
+# Log files
+/workflow-engine-ui/npm-debug.log*
+/workflow-engine-ui/yarn-debug.log*
+/workflow-engine-ui/yarn-error.log*
+/workflow-engine-ui/pnpm-debug.log*
+
+# Editor directories and files
+/workflow-engine-ui/.idea/
+/workflow-engine-ui/.vscode/
+/workflow-engine-ui/*.suo
+/workflow-engine-ui/*.ntvs*
+/workflow-engine-ui/*.njsproj
+/workflow-engine-ui/*.sln
+/workflow-engine-ui/*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ==================== IDE ====================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ==================== Logs ====================
+*.log
+logs/
+
+# ==================== Temporary files ====================
+tmp/
+temp/
+*.tmp
+workflow-engine/workflow-engine.exe
